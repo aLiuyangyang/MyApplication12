@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#ccc"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<com.recker.flybanner.FlyBanner
+    android:id="@+id/carousel_fly"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"></com.recker.flybanner.FlyBanner>
+<com.example.dell.myapplication12.view.MyView
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:textSize="30dp"
+    android:textColor="#33FF00"
+    android:background="#99F"
+    android:text="我真是个小可爱!我真是个小可爱!我真是个小可爱!"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+  <com.handmark.pulltorefresh.library.PullToRefreshListView
+      android:id="@+id/pull"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"></com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>
